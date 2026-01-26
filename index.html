@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Temel Meta Etiketleri -->
+    <title>Sabiha Aydın | Global Macro Strategist & Finansal Stratejist</title>
+    <meta
+      name="description"
+      content="Sabiha Aydın: Londra merkezli Global Macro Strategist, ödüllü girişimci ve işletme mühendisi. Finansal piyasalarda analitik stratejiler ve kurumsal danışmanlık."
+    />
+    <meta
+      name="keywords"
+      content="Sabiha Aydın, Global Macro Strategist, Finans Danışmanı Londra, Trader, İşletme Mühendisi, Ekonomi Stratejisti, The Shard London, Finansal Danışmanlık, Yatırım Stratejileri, Sabiha Aydın Telegram, Sabiha Aydın Twitter"
+    />
+    <meta name="author" content="Sabiha Aydın" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.sabihaaydin.com.tr" />
+
+    <!-- Google Sitelinks İçin Yapılandırılmış Veri (JSON-LD) - Sosyal Medya Güncellendi -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sabiha Aydın",
+        "jobTitle": "Global Macro Strategist",
+        "url": "https://www.sabihaaydin.com.tr",
+        "sameAs": [
+          "https://www.linkedin.com/in/sabihaaydin",
+          "https://twitter.com/sabihaaydin",
+          "https://t.me/+o-5qZ6ZfcngxMWFk",
+          "https://instagram.com/sabihaaydin"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "32 London Bridge Street, The Shard Level 24",
+          "addressLocality": "London",
+          "postalCode": "SE1 9SG",
+          "addressCountry": "UK"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Viyana Teknik Üniversitesi"
+        },
+        "description": "Londra merkezli Global Macro Strategist, ödüllü girişimci ve işletme mühendisi.",
+        "award": ["Yılın Girişimci Kadın Lideri", "Üstün Başarı Ödülü"]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Sabiha Aydın",
+        "url": "https://www.sabihaaydin.com.tr",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.sabihaaydin.com/#search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- Social Media Meta Tags (Open Graph) -->
+    <meta
+      property="og:title"
+      content="Sabiha Aydın | Global Macro Strategist"
+    />
+    <meta
+      property="og:description"
+      content="Mühendislik disipliniyle şekillenen finansal deha. Londra merkezli stratejik danışmanlık ve piyasa analizi."
+    />
+    <meta
+      property="og:image"
+      content="https://www.sabihaaydin.com.tr/og-image.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.sabihaaydin.com.tr" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap");
+
+      body {
+        font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .serif-font {
+        font-family: "Playfair Display", serif;
+      }
+      .gradient-overlay {
+        background: linear-gradient(
+          to bottom,
+          rgba(15, 23, 42, 0.8),
+          rgba(15, 23, 42, 0.95)
+        );
+      }
+
+      /* Smooth Nav Hover */
+      .nav-link:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #f59e0b;
+        transition: width 0.3s;
+      }
+      .nav-link:hover:after {
+        width: 100%;
+      }
+
+      /* Animation Classes */
+      .reveal {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.8s ease-out;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Social Icon Floating Animation */
+      .social-float {
+        transition: all 0.3s ease;
+      }
+      .social-float:hover {
+        transform: translateY(-5px);
+        color: #f59e0b;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 overflow-x-hidden">
+    <!-- Header / Navigation -->
+    <header class="fixed w-full z-50 transition-all duration-300" id="main-nav">
+      <nav
+        class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"
+      >
+        <div
+          class="text-2xl font-bold tracking-tighter serif-font text-white"
+          id="logo"
+        >
+          SABİHA AYDIN
+        </div>
+
+        <!-- Desktop Links -->
+        <div
+          class="hidden md:flex space-x-10 text-xs font-bold tracking-widest uppercase text-white/80"
+        >
+          <a href="#about" class="nav-link hover:text-white transition-colors"
+            >Hakkında</a
+          >
+          <a
+            href="#expertise"
+            class="nav-link hover:text-white transition-colors"
+            >Uzmanlık</a
+          >
+          <a href="#social" class="nav-link hover:text-white transition-colors"
+            >Sosyal Medya</a
+          >
+          <a
+            href="#contact"
+            class="nav-link text-amber-400 hover:text-amber-300"
+            >İletişim</a
+          >
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="md:hidden text-white" id="menu-toggle" aria-label="Menü">
+          <i data-lucide="menu"></i>
+        </button>
+      </nav>
+
+      <!-- Mobile Dropdown -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-slate-900 border-b border-slate-800 p-6 space-y-4"
+      >
+        <a
+          href="#about"
+          class="block text-white font-bold uppercase text-sm tracking-widest"
+          >Hakkında</a
+        >
+        <a
+          href="#expertise"
+          class="block text-white font-bold uppercase text-sm tracking-widest"
+          >Uzmanlık</a
+        >
+        <a
+          href="#social"
+          class="block text-white font-bold uppercase text-sm tracking-widest"
+          >Sosyal Medya</a
+        >
+        <a
+          href="#contact"
+          class="block text-amber-400 font-bold uppercase text-sm tracking-widest"
+          >İletişim</a
+        >
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="relative h-screen flex items-center justify-center overflow-hidden bg-slate-900"
+    >
+      <div class="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000"
+          alt="The Shard London - Sabiha Aydın Ofis"
+          class="w-full h-full object-cover opacity-30"
+        />
+        <div class="absolute inset-0 gradient-overlay"></div>
+      </div>
+
+      <div class="relative z-10 text-center px-6 max-w-5xl">
+        <h2
+          class="text-amber-500 text-sm md:text-base font-bold tracking-[0.4em] uppercase mb-6"
+        >
+          London • Global Macro Strategy
+        </h2>
+        <h1
+          class="text-4xl md:text-8xl text-white serif-font mb-8 leading-[1.1]"
+        >
+          Finansal Vizyonun <br />
+          <span class="text-slate-400 italic font-light">Mühendislik Hali</span>
+        </h1>
+        <p
+          class="text-slate-300 text-lg md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed"
+        >
+          Analitik zekayı global piyasa tecrübesiyle birleştirerek karmaşık
+          finans dünyasında stratejik yollar inşa ediyoruz.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-6 justify-center">
+          <a
+            href="#contact"
+            class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-10 py-5 rounded-full font-bold transition-all transform hover:-translate-y-1 shadow-2xl"
+          >
+            Danışmanlık Alın
+          </a>
+          <a
+            href="#social"
+            class="bg-white/5 backdrop-blur-sm border border-white/20 text-white hover:bg-white/10 px-10 py-5 rounded-full font-bold transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2"
+          >
+            <i data-lucide="send" class="w-5 h-5"></i> Telegram'a Katıl
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div
+        class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/30 animate-bounce"
+      >
+        <i data-lucide="chevron-down" class="w-8 h-8"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-32 px-6 bg-white overflow-hidden">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+          <div class="relative reveal">
+            <div
+              class="aspect-[4/5] bg-slate-100 rounded-3xl overflow-hidden relative z-10 shadow-2xl"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800"
+                alt="Sabiha Aydın"
+                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              />
+            </div>
+            <div
+              class="absolute -top-10 -left-10 w-40 h-40 bg-amber-500/10 rounded-full blur-3xl -z-0"
+            ></div>
+          </div>
+
+          <div class="reveal">
+            <h3
+              class="text-amber-600 font-bold tracking-widest uppercase text-xs mb-4"
+            >
+              Küresel Stratejist
+            </h3>
+            <h2 class="text-4xl md:text-6xl serif-font mb-10 text-slate-900">
+              Sabiha Aydın
+            </h2>
+            <div
+              class="space-y-6 text-slate-600 text-lg leading-relaxed font-light"
+            >
+              <p>
+                Londra merkezli global makro stratejist olan
+                <strong>Sabiha Aydın</strong>, mühendislik kökenli sistematik
+                bakış açısını finansal piyasaların dinamizmiyle
+                harmanlamaktadır.
+              </p>
+              <p>
+                <strong>Viyana Teknik Üniversitesi İşletme Mühendisliği</strong>
+                mezunu olan Aydın, Türkiye Sermaye Piyasaları'ndaki deneyimini
+                uluslararası boyuta taşıyarak kurumsal danışmanlık ve trading
+                alanında markalaşmıştır.
+              </p>
+            </div>
+
+            <div
+              class="mt-12 p-8 bg-slate-50 rounded-2xl border-l-4 border-amber-500"
+            >
+              <p class="italic text-slate-700 font-medium">
+                "Finans, rakamlardan ziyade bir öngörü ve disiplin sanatıdır."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-32 bg-slate-900 text-white px-6">
+      <div class="max-w-7xl mx-auto text-center mb-20">
+        <h2 class="text-4xl md:text-6xl serif-font mb-6">Uzmanlık Alanları</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto text-lg font-light">
+          Global piyasalarda başarının anahtarı, disiplinli analiz ve stratejik
+          sabırdır.
+        </p>
+      </div>
+
+      <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+        <div
+          class="bg-white/5 border border-white/10 p-12 rounded-3xl hover:bg-white/10 transition-all duration-500 group reveal"
+        >
+          <i
+            data-lucide="globe"
+            class="w-12 h-12 text-amber-500 mb-8 group-hover:scale-110 transition-transform"
+          ></i>
+          <h3 class="text-2xl font-bold mb-4">Global Macro</h3>
+          <p class="text-slate-400 font-light leading-relaxed">
+            Dünya ekonomisindeki değişimlerin piyasa varlıkları üzerindeki
+            etkilerini analiz ederek uzun vadeli stratejiler geliştiriyoruz.
+          </p>
+        </div>
+        <div
+          class="bg-white/5 border border-white/10 p-12 rounded-3xl hover:bg-white/10 transition-all duration-500 group reveal"
+        >
+          <i
+            data-lucide="bar-chart-3"
+            class="w-12 h-12 text-amber-500 mb-8 group-hover:scale-110 transition-transform"
+          ></i>
+          <h3 class="text-2xl font-bold mb-4">Teknik Analiz</h3>
+          <p class="text-slate-400 font-light leading-relaxed">
+            Mühendislik formasyonuyla geliştirilen grafik analizleri sayesinde
+            piyasadaki trendleri matematiksel hassasiyetle belirliyoruz.
+          </p>
+        </div>
+        <div
+          class="bg-white/5 border border-white/10 p-12 rounded-3xl hover:bg-white/10 transition-all duration-500 group reveal"
+        >
+          <i
+            data-lucide="shield-check"
+            class="w-12 h-12 text-amber-500 mb-8 group-hover:scale-110 transition-transform"
+          ></i>
+          <h3 class="text-2xl font-bold mb-4">Risk Yönetimi</h3>
+          <p class="text-slate-400 font-light leading-relaxed">
+            Sermaye piyasalarındaki tecrübemizle, yatırımlarınızı volatiliteye
+            karşı koruyacak profesyonel sistemler kuruyoruz.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social / Community Section -->
+    <section id="social" class="py-32 px-6 bg-amber-500">
+      <div class="max-w-7xl mx-auto text-center">
+        <h2 class="text-4xl md:text-6xl serif-font mb-8 text-slate-900">
+          Topluluğa Katılın
+        </h2>
+        <p class="text-slate-800 text-xl mb-12 max-w-2xl mx-auto">
+          Günlük piyasa analizleri, makro stratejiler ve finansal ipuçları için
+          sosyal medya hesaplarımı takip edin.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-10">
+          <!-- Telegram -->
+          <a
+            href="https://t.me/+o-5qZ6ZfcngxMWFk"
+            target="_blank"
+            class="flex flex-col items-center group"
+          >
+            <div
+              class="w-20 h-20 bg-slate-900 text-amber-500 rounded-full flex items-center justify-center mb-4 transition-transform group-hover:scale-110 shadow-xl"
+            >
+              <i data-lucide="send" class="w-10 h-10"></i>
+            </div>
+            <span
+              class="font-bold text-slate-900 tracking-widest uppercase text-xs"
+              >Telegram</span
+            >
+            <span class="text-slate-800 text-xs">Piyasa Sinyalleri</span>
+          </a>
+          <!-- Twitter -->
+          <a
+            href="https://twitter.com/sabihaaydin"
+            target="_blank"
+            class="flex flex-col items-center group"
+          >
+            <div
+              class="w-20 h-20 bg-slate-900 text-amber-500 rounded-full flex items-center justify-center mb-4 transition-transform group-hover:scale-110 shadow-xl"
+            >
+              <i data-lucide="twitter" class="w-10 h-10"></i>
+            </div>
+            <span
+              class="font-bold text-slate-900 tracking-widest uppercase text-xs"
+              >Twitter</span
+            >
+            <span class="text-slate-800 text-xs">Anlık Analizler</span>
+          </a>
+          <!-- LinkedIn -->
+          <a
+            href="https://linkedin.com/in/sabihaaydin"
+            target="_blank"
+            class="flex flex-col items-center group"
+          >
+            <div
+              class="w-20 h-20 bg-slate-900 text-amber-500 rounded-full flex items-center justify-center mb-4 transition-transform group-hover:scale-110 shadow-xl"
+            >
+              <i data-lucide="linkedin" class="w-10 h-10"></i>
+            </div>
+            <span
+              class="font-bold text-slate-900 tracking-widest uppercase text-xs"
+              >LinkedIn</span
+            >
+            <span class="text-slate-800 text-xs">Profesyonel Ağ</span>
+          </a>
+          <!-- Instagram -->
+          <a
+            href="https://instagram.com/sabihaaydin"
+            target="_blank"
+            class="flex flex-col items-center group"
+          >
+            <div
+              class="w-20 h-20 bg-slate-900 text-amber-500 rounded-full flex items-center justify-center mb-4 transition-transform group-hover:scale-110 shadow-xl"
+            >
+              <i data-lucide="instagram" class="w-10 h-10"></i>
+            </div>
+            <span
+              class="font-bold text-slate-900 tracking-widest uppercase text-xs"
+              >Instagram</span
+            >
+            <span class="text-slate-800 text-xs">Yaşam & Finans</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="py-32 px-6 bg-white border-b border-slate-100">
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="flex flex-col md:flex-row items-end justify-between mb-16 gap-6 reveal"
+        >
+          <div class="max-w-2xl">
+            <h2 class="text-4xl md:text-6xl serif-font mb-4 text-slate-900">
+              Ödüllü Liderlik
+            </h2>
+            <p class="text-slate-500 text-lg font-light">
+              İş dünyasında fark yaratan vizyon ve toplumsal katkı.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          <div
+            class="flex items-center p-10 bg-slate-50 rounded-3xl gap-8 group hover:bg-amber-100 transition-colors reveal"
+          >
+            <div
+              class="w-20 h-20 bg-amber-500 rounded-2xl flex items-center justify-center text-white shrink-0 shadow-lg"
+            >
+              <i data-lucide="award" class="w-10 h-10"></i>
+            </div>
+            <div>
+              <h4 class="text-xl font-bold text-slate-900 mb-2">
+                Yılın Girişimci Kadın Lideri
+              </h4>
+              <p class="text-slate-500 text-sm">
+                Güçlü Kadınlar Derneği tarafından verilmiştir.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center p-10 bg-slate-50 rounded-3xl gap-8 group hover:bg-amber-100 transition-colors reveal"
+          >
+            <div
+              class="w-20 h-20 bg-amber-500 rounded-2xl flex items-center justify-center text-white shrink-0 shadow-lg"
+            >
+              <i data-lucide="star" class="w-10 h-10"></i>
+            </div>
+            <div>
+              <h4 class="text-xl font-bold text-slate-900 mb-2">
+                Üstün Başarı Ödülü
+              </h4>
+              <p class="text-slate-500 text-sm">
+                Genç İş Kadınları Derneği tarafından tescillenmiştir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-32 px-6 bg-slate-50">
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="bg-white rounded-[40px] shadow-2xl overflow-hidden flex flex-col lg:flex-row"
+        >
+          <div class="lg:w-2/5 bg-slate-900 p-16 text-white relative">
+            <h2 class="text-4xl serif-font mb-12">İletişim Kurun</h2>
+            <div class="space-y-12">
+              <div class="flex gap-6">
+                <i data-lucide="map-pin" class="text-amber-500 shrink-0"></i>
+                <div>
+                  <p
+                    class="text-sm font-bold uppercase tracking-widest text-slate-400 mb-2"
+                  >
+                    Global Merkez
+                  </p>
+                  <p class="text-lg font-light">
+                    The Shard, Level 24, London, SE1 9SG, UK
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-6">
+                <i data-lucide="mail" class="text-amber-500 shrink-0"></i>
+                <div>
+                  <p
+                    class="text-sm font-bold uppercase tracking-widest text-slate-400 mb-2"
+                  >
+                    E-Posta
+                  </p>
+                  <p class="text-lg font-light">info@sabihaaydin.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-20 pt-10 border-t border-white/10">
+              <p class="text-sm text-slate-500 mb-6 uppercase tracking-widest">
+                Hızlı Erişim
+              </p>
+              <div class="flex gap-4">
+                <a
+                  href="https://t.me/sabihaaydin"
+                  class="social-float w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/5"
+                >
+                  <i data-lucide="send" class="w-5 h-5"></i>
+                </a>
+                <a
+                  href="https://twitter.com/sabihaaydin"
+                  class="social-float w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/5"
+                >
+                  <i data-lucide="twitter" class="w-5 h-5"></i>
+                </a>
+                <a
+                  href="https://linkedin.com/in/sabihaaydin"
+                  class="social-float w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/5"
+                >
+                  <i data-lucide="linkedin" class="w-5 h-5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-3/5 p-16">
+            <form id="contactForm" class="space-y-8">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-2">
+                  <label
+                    class="text-xs font-bold uppercase tracking-widest text-slate-500"
+                    >Ad Soyad</label
+                  >
+                  <input
+                    type="text"
+                    required
+                    placeholder="İsim Soyisim"
+                    class="w-full bg-slate-50 border-b border-slate-200 py-4 focus:border-amber-500 outline-none transition-all"
+                  />
+                </div>
+                <div class="space-y-2">
+                  <label
+                    class="text-xs font-bold uppercase tracking-widest text-slate-500"
+                    >E-Posta</label
+                  >
+                  <input
+                    type="email"
+                    required
+                    placeholder="eposta@adres.com"
+                    class="w-full bg-slate-50 border-b border-slate-200 py-4 focus:border-amber-500 outline-none transition-all"
+                  />
+                </div>
+              </div>
+              <div class="space-y-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-widest text-slate-500"
+                  >İleti Konusu</label
+                >
+                <input
+                  type="text"
+                  placeholder="Nasıl yardımcı olabilirim?"
+                  class="w-full bg-slate-50 border-b border-slate-200 py-4 focus:border-amber-500 outline-none transition-all"
+                />
+              </div>
+              <div class="space-y-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-widest text-slate-500"
+                  >Mesajınız</label
+                >
+                <textarea
+                  rows="4"
+                  placeholder="Mesajınızı buraya yazınız..."
+                  class="w-full bg-slate-50 border-b border-slate-200 py-4 focus:border-amber-500 outline-none transition-all resize-none"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-slate-900 text-white py-6 rounded-2xl font-bold tracking-widest uppercase hover:bg-slate-800 transition-all shadow-xl"
+              >
+                Mesajı Gönder
+              </button>
+            </form>
+            <div
+              id="successMsg"
+              class="hidden mt-6 p-6 bg-green-50 border border-green-200 text-green-700 rounded-2xl text-center font-bold"
+            >
+              <i data-lucide="check-circle-2" class="w-6 h-6 mx-auto mb-2"></i>
+              Mesajınız başarıyla iletildi.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-slate-950 text-white py-20 px-6 border-t border-slate-900"
+    >
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center"
+      >
+        <div class="serif-font text-3xl mb-8 md:mb-0">SABİHA AYDIN</div>
+        <div
+          class="flex flex-wrap justify-center gap-10 text-xs font-bold uppercase tracking-widest text-slate-500"
+        >
+          <a href="#about" class="hover:text-amber-500 transition-colors"
+            >Hakkında</a
+          >
+          <a href="#expertise" class="hover:text-amber-500 transition-colors"
+            >Uzmanlık</a
+          >
+          <a
+            href="#social"
+            class="hover:text-amber-500 transition-colors text-amber-500"
+            >Sosyal</a
+          >
+          <a href="#contact" class="hover:text-amber-500 transition-colors"
+            >İletişim</a
+          >
+        </div>
+      </div>
+      <div
+        class="max-w-7xl mx-auto mt-20 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6"
+      >
+        <p class="text-slate-600 text-sm italic">
+          &copy; 2024 Sabiha Aydın. Tüm Hakları Saklıdır.
+        </p>
+        <div class="flex gap-6">
+          <a
+            href="https://t.me/+o-5qZ6ZfcngxMWFk"
+            class="text-slate-500 hover:text-white transition-colors"
+            ><i data-lucide="send" class="w-4 h-4"></i
+          ></a>
+          <a
+            href="https://twitter.com/sabihaaydin"
+            class="text-slate-500 hover:text-white transition-colors"
+            ><i data-lucide="twitter" class="w-4 h-4"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/sabihaaydin"
+            class="text-slate-500 hover:text-white transition-colors"
+            ><i data-lucide="linkedin" class="w-4 h-4"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+
+      // Nav Scroll Effect
+      const nav = document.getElementById("main-nav");
+      const logo = document.getElementById("logo");
+      const links = document.querySelectorAll(".nav-link");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          nav.classList.add("bg-white", "shadow-xl", "h-16");
+          nav.classList.remove("h-20");
+          logo.classList.replace("text-white", "text-slate-900");
+          links.forEach((l) =>
+            l.classList.replace("text-white/80", "text-slate-600"),
+          );
+          document
+            .getElementById("menu-toggle")
+            .classList.replace("text-white", "text-slate-900");
+        } else {
+          nav.classList.remove("bg-white", "shadow-xl", "h-16");
+          nav.classList.add("h-20");
+          logo.classList.replace("text-slate-900", "text-white");
+          links.forEach((l) =>
+            l.classList.replace("text-slate-600", "text-white/80"),
+          );
+          document
+            .getElementById("menu-toggle")
+            .classList.replace("text-slate-900", "text-white");
+        }
+      });
+
+      // Mobile Menu Toggle
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Reveal Animations on Scroll
+      const reveal = () => {
+        const reveals = document.querySelectorAll(".reveal");
+        reveals.forEach((el) => {
+          const windowHeight = window.innerHeight;
+          const elementTop = el.getBoundingClientRect().top;
+          const elementVisible = 150;
+          if (elementTop < windowHeight - elementVisible) {
+            el.classList.add("active");
+          }
+        });
+      };
+      window.addEventListener("scroll", reveal);
+      window.addEventListener("load", reveal);
+
+      // Form Submit
+      const form = document.getElementById("contactForm");
+      const success = document.getElementById("successMsg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        form.style.display = "none";
+        success.classList.remove("hidden");
+      });
+    </script>
+  </body>
+</html>
